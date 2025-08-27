@@ -1,0 +1,31 @@
+.only-you-wrap .title{
+    margin-bottom:0;
+}
+
+.title-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.only-tab-list{
+    display:flex;
+    gap:10px;
+}
+
+.only-tab-list li a{
+    display:block;
+    padding: 16px 24px;
+    border:1px solid black;
+    border-radius:50px;
+    font-size:18px;
+}
+
+.only-tab-list li a:hover{
+    background:#ccc;
+}
+
+.only-tab-list li .active a{
+    background:green;
+}
